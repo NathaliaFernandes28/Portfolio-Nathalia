@@ -1,0 +1,231 @@
+header {
+  background-color: #13131f;
+  .overlay {
+    background-color: #13131f92;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .closeBtn {
+    color: #fe343e;
+  }
+  .overlay-content a {
+    color: white;
+  }
+  .overlay-content a:hover {
+    background-color: #fe343e;
+  }
+  #menuHamburguer {
+    color: #fe343e;
+  }
+
+  h1 {
+    color: white;
+  }
+  #light {
+    color: #fe343e;
+  }
+  #dark {
+    color: #fe343e;
+  }
+}
+main {
+  .subTitle {
+    color: #a9a9a9;
+  }
+  button {
+    background-color: #fe343e;
+  }
+  .buttonDownload {
+    color: white;
+  }
+  .sobreMim {
+    .descricao {
+      color: rgb(169, 169, 169);
+    }
+  }
+  .habilidades {
+    .html {
+      background-color: #202021;
+      padding: 15px;
+      border-bottom: 3px solid #fe343e;
+      color: #fe343e;
+      text-align: center;
+    }
+    .css {
+      background-color: #202021;
+      padding: 15px;
+      border-bottom: 3px solid #fe343e;
+      color: #fe343e;
+      text-align: center;
+    }
+    .javascript {
+      background-color: #202021;
+      padding: 15px;
+      border-bottom: 3px solid #fe343e;
+      color: #fe343e;
+      text-align: center;
+    }
+    .bootstrap {
+      background-color: #202021;
+      padding: 15px;
+      border-bottom: 3px solid #fe343e;
+      color: #fe343e;
+      text-align: center;
+    }
+    .figma {
+      background-color: #202021;
+      padding: 15px;
+      width: 120px;
+      border-bottom: 3px solid #fe343e;
+      color: #fe343e;
+      text-align: center;
+    }
+    .git {
+      background-color: #202021;
+      padding: 15px;
+      border-bottom: 3px solid #fe343e;
+      color: #fe343e;
+      text-align: center;
+    }
+    .github {
+      background-color: #202021;
+      padding: 15px;
+      border-bottom: 3px solid #fe343e;
+      color: #fe343e;
+      text-align: center;
+    }
+    .sass {
+      background-color: #202021;
+      padding: 15px;
+      border-bottom: 3px solid #fe343e;
+      color: #fe343e;
+      text-align: center;
+    }
+  }
+  .projetos {
+    .projeto01 {
+      .container01 {
+        color: #fff;
+        .buttonRepositorio {
+          background-color: #fe343e;
+          border: 2px solid #fe343e;
+          color: #fff;
+        }
+        .buttonRepositorio:hover {
+          background-color: transparent;
+        }
+        .buttonAplicacao {
+          background-color: #fe343e;
+          border: 2px solid #fe343e;
+          color: #fff;
+        }
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+        .buttonAplicacao:hover {
+          background-color: transparent;
+        }
+        .theBoys {
+          border-bottom: 3px solid #fe343e;
+        }
+      }
+    }
+    .projeto02 {
+      .container02 {
+        color: #fff;
+        background-color: #202021;
+        border: 3px solid #fe343e;
+        .calculadora {
+          border-bottom: 3px solid #fe343e;
+        }
+        .buttonRepositorio {
+          background-color: #fe343e;
+          border: 2px solid #fe343e;
+          color: #fff;
+        }
+        .buttonRepositorio:hover {
+          background-color: transparent;
+        }
+        .buttonAplicacao {
+          background-color: #fe343e;
+          border: 2px solid #fe343e;
+          color: #fff;
+        }
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+        .buttonAplicacao:hover {
+          background-color: transparent;
+        }
+      }
+    }
+    .projeto03 {
+      .container03 {
+        color: #fff;
+        background-color: #202021;
+        border: 3px solid #fe343e;
+        .containerParagraph03 {
+          color: #fff;
+        }
+        .pokemon {
+          border-bottom: 3px solid #fe343e;
+        }
+        .buttonRepositorio {
+          background-color: #fe343e;
+          border: 2px solid #fe343e;
+          color: #fff;
+        }
+        .buttonRepositorio:hover {
+          background-color: transparent;
+        }
+        .buttonAplicacao {
+          background-color: #fe343e;
+          border: 2px solid #fe343e;
+          color: #fff;
+        }
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+        .buttonAplicacao:hover {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
+footer {
+  .contatos {
+    p {
+      color: #13131f;
+    }
+    a {
+      text-decoration: none;
+      color: #13131f;
+    }
+    #emailImage {
+      background-color: #202021;
+      color: #fe343e;
+    }
+    #telefoneImage {
+      background-color: #202021;
+      color: #fe343e;
+    }
+    #linkedinImage {
+      color: #fe343e;
+      background-color: #202021;
+    }
+    #githubImage {
+      background-color: #202021;
+      color: #fe343e;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: #13131f;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #fe343e;
+}

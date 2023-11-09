@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Source+Code+Pro:wght@900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Source+Code+Pro:wght@500&display=swap");
+
+header {
+  #menuHamburguer {
+    font-size: 25px;
+  }
+  h1 {
+    font-family: "Source Code Pro", monospace;
+    font-size: 28px;
+    font-weight: 100;
+  }
+  a {
+    font-family: "Source Code Pro", monospace;
+    font-size: 19px;
+  }
+}
+main {
+  .title {
+    font-family: "Source Code Pro", monospace;
+    font-size: 2em;
+    text-align: center;
+  }
+  .subTitle {
+    font-family: "Source Code Pro", monospace;
+    font-size: 1em;
+  }
+  .buttonDownload {
+    font-size: 1.2em;
+    font-family: "Source Code Pro", monospace;
+  }
+  .sobreMim {
+    .titleOne {
+      font-family: "Source Code Pro", monospace;
+    }
+    .descricao {
+      font-size: 1em;
+      line-height: 1.7;
+      margin-top: 1em;
+      font-family: "Source Code Pro", monospace;
+    }
+  }
+  .titleTwo {
+    font-size: 2em;
+    font-family: "Source Code Pro", monospace;
+  }
+  .titleTree {
+    font-family: "Source Code Pro", monospace;
+  }
+  .card-title {
+    font-family: "Source Code Pro", monospace;
+  }
+  .card-info {
+    font-family: "Source Code Pro", monospace;
+  }
+  .card-btn {
+    font-family: "Source Code Pro", monospace;
+  }
+}
+footer {
+  .titleTree {
+    font-size: 35px;
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+    margin-top: 2em;
+  }
+  .email {
+    padding: 20px;
+    margin-top: 50px;
+    .emailParagrafo {
+      margin-top: 20px;
+    }
+    #emailImage {
+      font-size: 2em;
+      padding: 10px;
+      border-radius: 90px;
+    }
+    .telefone {
+      padding: 20px;
+      margin-top: 20px;
+      .telefoneParagrafo {
+        margin-top: 20px;
+      }
+      #telefoneImage {
+        font-size: 2em;
+        padding: 10px;
+        border-radius: 90px;
+      }
+    }
+    .linkedinGithub {
+      display: flex;
+      gap: 45px;
+      margin-top: 2em;
+    }
+    .linkedin {
+      padding: 20px;
+      margin-left: 15px;
+      .linkedinParagrafo {
+        margin-top: 20px;
+      }
+      #linkedinImage {
+        font-size: 2em;
+        padding: 10px;
+        border-radius: 90px;
+      }
+    }
+    .github {
+      padding: 20px;
+      .githubParagrafo {
+        margin-top: 20px;
+      }
+      #githubImage {
+        font-size: 2em;
+        padding: 10px;
+        border-radius: 90px;
+      }
+    }
+  }
+}
