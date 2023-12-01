@@ -31,7 +31,7 @@ main {
   .subTitle {
     color: #a9a9a9;
   }
-  button {
+  .downloadBtn {
     background-color: #fe343e;
   }
   .buttonDownload {
@@ -99,99 +99,6 @@ main {
       border-bottom: 3px solid #fe343e;
       color: #fe343e;
       text-align: center;
-    }
-  }
-  .projetos {
-    .projeto01 {
-      .container01 {
-        color: #fff;
-        .buttonRepositorio {
-          background-color: #fe343e;
-          border: 2px solid #fe343e;
-          color: #fff;
-        }
-        .buttonRepositorio:hover {
-          background-color: transparent;
-        }
-        .buttonAplicacao {
-          background-color: #fe343e;
-          border: 2px solid #fe343e;
-          color: #fff;
-        }
-        a {
-          text-decoration: none;
-          color: #fff;
-        }
-        .buttonAplicacao:hover {
-          background-color: transparent;
-        }
-        .theBoys {
-          border-bottom: 3px solid #fe343e;
-        }
-      }
-    }
-    .projeto02 {
-      .container02 {
-        color: #fff;
-        background-color: #202021;
-        border: 3px solid #fe343e;
-        .calculadora {
-          border-bottom: 3px solid #fe343e;
-        }
-        .buttonRepositorio {
-          background-color: #fe343e;
-          border: 2px solid #fe343e;
-          color: #fff;
-        }
-        .buttonRepositorio:hover {
-          background-color: transparent;
-        }
-        .buttonAplicacao {
-          background-color: #fe343e;
-          border: 2px solid #fe343e;
-          color: #fff;
-        }
-        a {
-          text-decoration: none;
-          color: #fff;
-        }
-        .buttonAplicacao:hover {
-          background-color: transparent;
-        }
-      }
-    }
-    .projeto03 {
-      .container03 {
-        color: #fff;
-        background-color: #202021;
-        border: 3px solid #fe343e;
-        .containerParagraph03 {
-          color: #fff;
-        }
-        .pokemon {
-          border-bottom: 3px solid #fe343e;
-        }
-        .buttonRepositorio {
-          background-color: #fe343e;
-          border: 2px solid #fe343e;
-          color: #fff;
-        }
-        .buttonRepositorio:hover {
-          background-color: transparent;
-        }
-        .buttonAplicacao {
-          background-color: #fe343e;
-          border: 2px solid #fe343e;
-          color: #fff;
-        }
-        a {
-          text-decoration: none;
-          color: #fff;
-        }
-        .buttonAplicacao:hover {
-          background-color: transparent;
-        }
-      }
     }
   }
 }

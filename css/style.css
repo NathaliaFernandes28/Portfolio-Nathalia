@@ -32,7 +32,7 @@ header #dark {
 main .subTitle {
   color: #a9a9a9;
 }
-main button {
+main .downloadBtn {
   background-color: #fe343e;
 }
 main .buttonDownload {
@@ -97,91 +97,6 @@ main .habilidades .sass {
   border-bottom: 3px solid #fe343e;
   color: #fe343e;
   text-align: center;
-}
-main .projetos .projeto01 .container01 {
-  color: #fff;
-}
-main .projetos .projeto01 .container01 .buttonRepositorio {
-  background-color: #fe343e;
-  border: 2px solid #fe343e;
-  color: #fff;
-}
-main .projetos .projeto01 .container01 .buttonRepositorio:hover {
-  background-color: transparent;
-}
-main .projetos .projeto01 .container01 .buttonAplicacao {
-  background-color: #fe343e;
-  border: 2px solid #fe343e;
-  color: #fff;
-}
-main .projetos .projeto01 .container01 a {
-  text-decoration: none;
-  color: #fff;
-}
-main .projetos .projeto01 .container01 .buttonAplicacao:hover {
-  background-color: transparent;
-}
-main .projetos .projeto01 .container01 .theBoys {
-  border-bottom: 3px solid #fe343e;
-}
-main .projetos .projeto02 .container02 {
-  color: #fff;
-  background-color: #202021;
-  border: 3px solid #fe343e;
-}
-main .projetos .projeto02 .container02 .calculadora {
-  border-bottom: 3px solid #fe343e;
-}
-main .projetos .projeto02 .container02 .buttonRepositorio {
-  background-color: #fe343e;
-  border: 2px solid #fe343e;
-  color: #fff;
-}
-main .projetos .projeto02 .container02 .buttonRepositorio:hover {
-  background-color: transparent;
-}
-main .projetos .projeto02 .container02 .buttonAplicacao {
-  background-color: #fe343e;
-  border: 2px solid #fe343e;
-  color: #fff;
-}
-main .projetos .projeto02 .container02 a {
-  text-decoration: none;
-  color: #fff;
-}
-main .projetos .projeto02 .container02 .buttonAplicacao:hover {
-  background-color: transparent;
-}
-main .projetos .projeto03 .container03 {
-  color: #fff;
-  background-color: #202021;
-  border: 3px solid #fe343e;
-}
-main .projetos .projeto03 .container03 .containerParagraph03 {
-  color: #fff;
-}
-main .projetos .projeto03 .container03 .pokemon {
-  border-bottom: 3px solid #fe343e;
-}
-main .projetos .projeto03 .container03 .buttonRepositorio {
-  background-color: #fe343e;
-  border: 2px solid #fe343e;
-  color: #fff;
-}
-main .projetos .projeto03 .container03 .buttonRepositorio:hover {
-  background-color: transparent;
-}
-main .projetos .projeto03 .container03 .buttonAplicacao {
-  background-color: #fe343e;
-  border: 2px solid #fe343e;
-  color: #fff;
-}
-main .projetos .projeto03 .container03 a {
-  text-decoration: none;
-  color: #fff;
-}
-main .projetos .projeto03 .container03 .buttonAplicacao:hover {
-  background-color: transparent;
 }
 
 footer .contatos p {
@@ -444,7 +359,7 @@ footer .email .github #githubImage {
     text-align: center;
     margin-top: 1em;
   }
-  main button {
+  main .downloadBtn {
     margin-top: 2em;
     padding-top: 4.5%;
     padding-bottom: 4.5%;
@@ -580,15 +495,14 @@ footer .email .github #githubImage {
   }
   main .projetos {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
     z-index: 200;
     justify-content: center;
     align-items: center;
   }
   main .card {
     width: 95%;
-    height: 77%;
+    height: 80%;
     overflow: hidden;
     position: relative;
     margin-bottom: 2em;
@@ -617,7 +531,7 @@ footer .email .github #githubImage {
     top: 0;
   }
   main .card-title {
-    margin-top: 17em;
+    padding-top: 2em;
     color: #fff;
     font-size: 1.1em;
     text-align: left;
@@ -649,27 +563,32 @@ footer .email .github #githubImage {
   }
   main .btn {
     display: flex;
-    justify-content: left;
-    margin-left: 1em;
+    justify-content: center;
     gap: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
   }
   main .btn .card-btn {
-    width: 25%;
-    padding: 0.3em;
-    color: #fff;
-    border-radius: 1em;
-    text-decoration: none;
-    margin-bottom: 22.8em;
+    padding: 0.3em 1.3em;
+    border: solid #fe343e;
+    border-radius: 2em;
+    background-color: #fe343e;
   }
   main .btn .card-btn .github-btn {
     text-decoration: none;
     color: #fff;
-    font-size: 0.9em;
+    font-size: 0.8em;
+  }
+  main .btn .card-btn .github-btn:hover {
+    color: #13131f;
   }
   main .btn .card-btn .site {
     text-decoration: none;
     color: #fff;
-    font-size: 0.9em;
+    font-size: 0.8em;
+  }
+  main .btn .card-btn .site:hover {
+    color: #13131f;
   }
   footer {
     display: grid;
@@ -846,7 +765,7 @@ footer .email .github #githubImage {
     margin-top: 1em;
     margin-left: 2em;
   }
-  main button {
+  main .downloadBtn {
     margin-top: 2em;
     padding-top: 4.5%;
     padding-bottom: 4.5%;
@@ -1031,7 +950,6 @@ footer .email .github #githubImage {
     top: 0;
   }
   main .card-title {
-    margin-top: 18em;
     color: #fff;
     font-size: 1em;
     text-align: left;
@@ -1064,27 +982,31 @@ footer .email .github #githubImage {
   main .btn {
     display: flex;
     justify-content: center;
-    margin-right: 10em;
-    margin-left: 5em;
+    gap: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
   }
   main .btn .card-btn {
-    width: 45%;
-    color: #fff;
-    border-radius: 1em;
-    text-decoration: none;
-    margin-bottom: 22.8em;
-    padding: 0.5em 3.3em 0.5em 0.9em;
+    padding: 0.3em 1.3em;
+    border: solid #fe343e;
+    border-radius: 2em;
+    background-color: #fe343e;
   }
   main .btn .card-btn .github-btn {
     text-decoration: none;
     color: #fff;
     font-size: 0.8em;
-    text-align: center;
+  }
+  main .btn .card-btn .github-btn:hover {
+    color: #13131f;
   }
   main .btn .card-btn .site {
     text-decoration: none;
     color: #fff;
     font-size: 0.8em;
+  }
+  main .btn .card-btn .site:hover {
+    color: #13131f;
   }
   footer {
     display: grid;
@@ -1269,7 +1191,7 @@ footer .email .github #githubImage {
     margin-top: 1em;
     font-size: 1.3em;
   }
-  main button {
+  main .downloadBtn {
     margin-top: 2em;
     padding-top: 4.5%;
     padding-bottom: 4.5%;
@@ -1294,7 +1216,7 @@ footer .email .github #githubImage {
     padding: 15px;
     margin-top: 2em;
     max-width: 100%;
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   main .titleTwo {
     text-align: center;
@@ -1456,12 +1378,11 @@ footer .email .github #githubImage {
     top: 0;
   }
   main .card-title {
-    margin-top: 22em;
-    margin-bottom: 0.5em;
     color: #fff;
     font-size: 1em;
     text-align: left;
     margin-left: 1.5em;
+    padding-top: 1.5em;
   }
   main .card-info {
     color: #fff;
@@ -1469,8 +1390,10 @@ footer .email .github #githubImage {
     line-height: 2.5;
     margin-left: 1.5em;
     text-align: left;
-    font-size: 0.8em;
-    line-height: 1.8em;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    padding-top: 2em;
+    text-align: left;
   }
   main .linguagens {
     display: none;
@@ -1488,25 +1411,32 @@ footer .email .github #githubImage {
   }
   main .btn {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    gap: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
   }
   main .btn .card-btn {
-    width: 22%;
-    padding: 0.2em;
-    color: #fff;
-    border-radius: 1em;
-    text-decoration: none;
-    margin-bottom: 21.8em;
+    padding: 0.3em 1.3em;
+    border: solid #fe343e;
+    border-radius: 2em;
+    background-color: #fe343e;
   }
   main .btn .card-btn .github-btn {
     text-decoration: none;
     color: #fff;
     font-size: 0.8em;
   }
+  main .btn .card-btn .github-btn:hover {
+    color: #13131f;
+  }
   main .btn .card-btn .site {
     text-decoration: none;
     color: #fff;
     font-size: 0.8em;
+  }
+  main .btn .card-btn .site:hover {
+    color: #13131f;
   }
   footer .titleTree {
     text-align: center;
@@ -1682,7 +1612,7 @@ footer .email .github #githubImage {
     margin-top: 1em;
     font-size: 1.3em;
   }
-  main button {
+  main .downloadBtn {
     margin-top: 2em;
     padding-top: 4.5%;
     padding-bottom: 4.5%;
@@ -1691,6 +1621,7 @@ footer .email .github #githubImage {
     width: 70%;
     margin-left: 3.6em;
     font-size: 1em;
+    background-color: #fe343e;
   }
   main .buttonDownload {
     text-decoration: none;
@@ -1839,8 +1770,8 @@ footer .email .github #githubImage {
     margin-top: 2.5em;
   }
   main .projetos {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);
     align-items: center;
     z-index: 200;
     gap: 4em;
@@ -1848,7 +1779,7 @@ footer .email .github #githubImage {
   }
   main .card {
     width: 100%;
-    height: 20em;
+    height: 17em;
     overflow: hidden;
     position: relative;
     border-bottom: 0.2em solid #fe343e;
@@ -1859,8 +1790,8 @@ footer .email .github #githubImage {
     cursor: pointer;
   }
   main .card-body {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     top: 100%;
     right: 0%;
     position: absolute;
@@ -1875,11 +1806,11 @@ footer .email .github #githubImage {
     top: 0;
   }
   main .card-title {
-    margin-top: 17em;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-align: left;
     margin-left: 1.5em;
+    padding-top: 2em;
   }
   main .card-info {
     color: #fff;
@@ -1887,14 +1818,14 @@ footer .email .github #githubImage {
     line-height: 1.5;
     margin-left: 1.5em;
     text-align: left;
-    font-size: 1em;
+    font-size: 0.7em;
     line-height: 1.5em;
     margin-top: 1em;
   }
   main .linguagens {
     display: block;
     gap: 0.5em;
-    margin-top: 1.2em;
+    padding-top: 0.6em;
   }
   main .LinguageHtml {
     width: 20px;
@@ -1908,25 +1839,32 @@ footer .email .github #githubImage {
   }
   main .btn {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    gap: 1em;
+    padding-bottom: 2em;
+    padding-top: 1em;
   }
   main .btn .card-btn {
-    width: 22%;
-    padding: 0.4em;
-    color: #fff;
-    border-radius: 1em;
-    text-decoration: none;
-    margin-bottom: 25.8em;
+    padding: 0.3em 1.3em;
+    border: solid #fe343e;
+    border-radius: 2em;
+    background-color: #fe343e;
   }
   main .btn .card-btn .github-btn {
     text-decoration: none;
     color: #fff;
-    font-size: 0.8em;
+    font-size: 1em;
+  }
+  main .btn .card-btn .github-btn:hover {
+    color: #13131f;
   }
   main .btn .card-btn .site {
     text-decoration: none;
     color: #fff;
-    font-size: 0.8em;
+    font-size: 1em;
+  }
+  main .btn .card-btn .site:hover {
+    color: #13131f;
   }
   footer .titleTree {
     text-align: center;
